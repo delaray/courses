@@ -1,0 +1,79 @@
+# Data Definition and Baseline
+
+## Learning Objectives
+
+- List the questions you need to answer in the process of data definition.__
+- Compare and contrast the types of data problems you need to solve for structured vs. unstructured and big vs. small data.__
+- Explain why label consistency is important and how you can improve it__
+- Explain why beating human level performance is not always indicative of success of an ML model.__
+- Make a case for improving human level performance rather than beating it.__
+- Identify how much training data you should gather given time and resource constraints.__
+- Describe the key steps in a data pipeline.__
+- Compare and contrast the proof of concept vs. production phases on an ML project.__
+- Explain the importance of keeping track of data provenance and lineage.__
+
+----
+
+## Define Data and Establish Baseline
+
+### Why is data definition hard?: (4 min)
+
+
+### More label ambiguity examples: (9 min)
+
+
+### Major types of data problems: 1(1 min)
+
+
+### Small data and label consistency: (8 min)
+
+
+### Improving label consistency: (9 min)
+
+
+### Human level performance (HLP): 1(0 min)
+
+
+### Raising HLP: (8 min)
+
+
+----
+
+## Label and Organize Data
+
+
+### Obtaining data: 1(2 min)
+
+
+### Data pipelines: (5 min)
+
+
+### Meta-data, data provenance and lineage: (9 min)
+
+
+### Balanced train/dev/test splits: (4 min)
+
+
+
+----
+
+## Scoping (optional)
+
+### What is scoping?: (2 min)
+
+
+### Scoping process: (6 min)
+
+
+### Diligence on feasibility and value: 1(4 min)
+
+
+### Diligence on value: (6 min)
+
+
+### Milestones and resourcing: (2 min)
+
+
+Week 3 Optional References
+
+Reading•. Duration: 3 minutes3 min

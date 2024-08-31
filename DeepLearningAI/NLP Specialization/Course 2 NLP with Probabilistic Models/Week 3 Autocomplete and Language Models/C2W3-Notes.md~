@@ -1,0 +1,93 @@
+# C2W3: Autocomplete 
+
+
+Video: Week Introduction (1 min)
+
+----
+
+## Video: N-Grams: Overview (3 min)
+
+- Create an N-Gram model from a corpus
+- Language models compute probs of sentences
+- Estiamte prob of word sequences
+- Estimate prob word follows a seq
+
+Other appklications
+- Speech recog
+- Spelling correction
+- Augmentive communication
+
+## Reading: N-Grams Overview (5 min)
+
+- Objectives
+  - Process text corpus to N-Gram
+  - Out of vocan words
+  - Smoothing for unseen N-Grams
+  - Language model evaluation
+
+
+## Video: N-grams and Probabilities (7 min)
+
+- N-gram is sequence of words (or other things)
+- Unigram: All sets of single woirds
+- Bigram: All seq of 2  words
+- Trigrams: All seq of 3 words
+
+- P(Unigram) = Word count / corpous size
+
+- P(Bigram)
+  - P(x|y) = P(y|x) / sum(w)C(x|w) = C(x|y) / C(x)
+  
+  
+## Reading: N-grams and Probabilities (10 min)
+
+- Compute approxmate seq prob instead because low likelihood
+- Approximate: Product of the joint bigram probabilities
+
+## Video: Sequence Probabilities (5 min)
+
+- Sequence Prob.
+- Approximate Seq Prob
+  - Used the Markov assumption
+  
+Reading: Sequence Probabilities (6 min)
+
+----
+
+## Video: Starting and Ending Sentences (8 min)
+
+## Reading: Starting and Ending Sentences (6 min)
+
+Lab: Lecture notebook: Corpus preprocessing for N-grams
+. Duration: 1 hour1h
+
+## Video: The N-gram Language Model (6 min)
+
+
+## Reading: The N-gram Language Model (10 min)
+
+## Video: Language Model Evaluation (6 min)
+
+Lab: Lecture notebook: Building the language model
+. Duration: 1 hour1h
+
+## Reading: Language Model Evaluation (10 min)
+
+## Video: Out of Vocabulary Words (4 min)
+
+
+## Reading: Out of Vocabulary Words (10 min)
+
+## Video: Smoothing (6 min)
+
+
+## Reading: Smoothing (10 min)
+
+Lab: Lecture notebook: Language model generalization
+. Duration: 1 hour1h
+## Video: Week Summary (1 min)
+
+
+## Reading: Week Summary (2 min)
+
+Video: Week Conclusion (46 sec)

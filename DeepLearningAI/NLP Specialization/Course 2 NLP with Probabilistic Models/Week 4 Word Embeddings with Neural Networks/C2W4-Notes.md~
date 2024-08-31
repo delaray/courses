@@ -1,0 +1,100 @@
+# Lecture: Word Embeddings
+
+## Video: Week Introduction (1 min)
+
+## Video: Overview (2 min)
+
+## Reading: Overview
+
+## Video: Basic Word Representations (3 min)
+
+## Reading: Basic Word Representations (5 min)
+
+## Video: Word Embeddings (3 min)
+
+## Reading: Word Embeddings (4 min)
+
+## Video: How to Create Word Embeddings (3 min)
+
+## Reading: How to Create Word Embeddings? (4 min)
+
+## Video: Word Embedding Methods (3 min)
+
+## Reading: Word Embedding Methods (4 min)
+
+## Video: Continuous Bag-of-Words Model (4 min)
+
+## Reading: Continuous Bag of Words Model (3 min)
+
+## Video: Cleaning and Tokenization (4 min)
+
+## Reading: Cleaning and Tokenization (5 min)
+
+## Video: Sliding Window of Words in Python (3 min)
+
+## Reading: Sliding Window of words in Python (10 min)
+
+## Video: Transforming Words into Vectors (3 min)
+
+## Reading: Transforming Words into Vectors (2 min)
+
+Lab: Lecture Notebook - Data Preparation
+. Duration: 30 minutes30 min
+
+## Video: Architecture of the CBOW Model (3 min)
+
+## Reading: Architecture for the CBOW Model (4 min)
+
+## Video: Architecture of the CBOW Model: Dimensions (3 min)
+
+## Reading: Architecture of the CBOW Model: Dimensions (4 min)
+
+## Video: Architecture of the CBOW Model: Dimensions 2 (2 min)
+
+## Reading: Architecture of the CBOW Model: Dimensions (3 min)
+
+## Video: Architecture of the CBOW Model: Activation Functions (4 min)
+
+## Reading: Architecture of the CBOW Model: Activation Functions (5 min)
+
+Lab: Lecture Notebook - Intro to CBOW model
+. Duration: 30 minutes30 min
+
+## Video: Training a CBOW Model: Cost Function (4 min)
+
+## Reading: Training a CBOW Model: Cost Function (3 min)
+
+## Video: Training a CBOW Model: Forward Propagation (3 min)
+
+## Reading: Training a CBOW Model: Forward Propagation (3 min)
+
+## Video: Training a CBOW Model: Backpropagation and Gradient Descent (4 min)
+
+## Reading: Training a CBOW Model: Backpropagation and Gradient Descent (4 min)
+
+Lab: Lecture Notebook - Training the CBOW model
+. Duration: 40 minutes40 min
+
+## Video: Extracting Word Embedding Vectors (3 min)
+
+## Reading: Extracting Word Embedding Vectors (5 min)
+
+Lab: Lecture Notebook - Word Embeddings
+. Duration: 20 minutes20 min
+
+## Video: Evaluating Word Embeddings: Intrinsic Evaluation (3 min)
+
+## Reading: Evaluating Word Embeddings: Intrinsic Evaluation (4 min)
+
+## Video: Evaluating Word Embeddings: Extrinsic Evaluation (2 min)
+
+## Reading: Evaluating Word Embeddings: Extrinsic Evaluation (3 min)
+
+Lab: Lecture notebook: Word embeddings step by step
+. Duration: 1 hour1h
+
+## Video: Conclusion (1 min)
+
+## Reading: Conclusion (2 min)
+
+## Video: Week Conclusion (45 sec)

@@ -1,0 +1,41 @@
+# Week 1: Sentiment Analysis and Logistic Regression  
+
+## Welcome to the NLP Specialization
+
+LR easy to train and provide a good baseline.
+
+## Supervised ML and Sentiment Analysis
+
+1. Process raw tweets to extract features from each
+2. Train a model using these features
+
+## Vocabulary and Feature Extraction  
+
+Build the vocabulary by extracting each unique word that appears.
+
+Sparse Representation
+For each tweet build a vector same size as vocabulary with a 1 if word appear or a zero otherwise.  
+This is known as a sparse respresentation.
+
+Problems with sparse representration. 
+- Would have to learn n parameters theta, where n = |V|
+- Large training time
+- Large prediction time
+
+## Negative and Positive Frequencies  
+
+Generate word counts for positive and negative classes.
+Frequency dictionary m,aps aa word and its class to a count.
+
+## Feature Extraction with Frequencies  
+
+Encdode a Tweet as a verctor dimension 3 
+
+    X(m) = [1, Sum of Pos. Freqs, Sum, of Neg. Freq]
+	
+## Preprocessing: Stop Words and Punctuation  
+
+For Sentiment Analysis eliminate:
+- Stop words and punctuation
+- Handles (@pierre) and URLs
+

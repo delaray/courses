@@ -1,0 +1,98 @@
+# Select and Train a Model
+
+## Learning Objectives
+
+- Identify the key challenges in model development.  
+- Describe how performance on a small set of disproportionately important examples may be more crucial than performance on the majority of examples.  
+- Explain how rare classes in your training data can affect performance.  
+- Define three ways of establishing a baseline for your performance.  
+- Define structured vs. unstructured data.  
+- Identify when to consider deployment constraints when choosing a model.  
+- List the steps involved in getting started with ML modeling.  
+- Describe the iterative process for error analysis.  
+- Identify the key factors in deciding what to prioritize when working to improve model accuracy.  
+- Describe methods you might use for data augmentation given audio data vs. image data.  
+- Explain the problems you can have training on a highly skewed dataset.  
+- Identify a use case in which adding more data to your training dataset could actually hurt performance.  
+- Describe the key components of experiment tracking.  
+
+----
+
+## Selecting and Training a Model
+
+### Modeling Overview
+
+### Key Challenges
+
+AI System = Code + Data
+
+Challenges in Model Development
+1. Doing well on training set
+2. Doing well on dev/test set
+3. Doing well on business metrics/project goals
+  
+  
+### Why Low Average Error Isn't Good Enough
+
+Performance on disproportionately import examples
+
+Informational and Transactional Queries
+Navigational Queies
+
+
+Perfoprmance on Key S;ices of ther Dataset
+
+Example: ML for Loan Approval
+- Do no discriminate by ethnicity, gender, location,...
+
+Example: Product Recommendations
+- Treat major users, retailers and product categories fairly 
+
+Rare Classes
+- Skewed data disdtribution
+- Medical domain:
+  99% Negative, 1% Positive
+  
+### Establish a Baseline
+
+- First step: establish a baseline
+
+- Example: Four typer of SR
+  - Clear Speech
+  - Car Noise
+  - People Noise
+  - Low Bandwidth
+  
+- Can use human-level performance vas baseline
+
+- Ways to establish a baseline
+  - Human level performance (HLP)
+  - Literature Search
+  - Quick and Dirty implementation (opewn-source)
+  - Performance of an older system
+
+### Tips for Getting Started
+
+- ML is an iterativee process
+- First iteration
+  - Literature search
+  - Don't obsess on SOTA
+  - Find Open-source implementastion
+  - Reasonable alg with good data better than better alg with worse data
+  - Take deployment constraints?
+    - Yes if baseline established and goal is deployment
+	- No if goal is to establish a baselinew
+	
+- Snaity-check for code and algorithm
+  - Try to overfit a on small dsataset before moving to larger one
+	
+
+
+----
+
+## Error Analysis and Performance Auditing
+
+----
+
+## Data Iteration
+

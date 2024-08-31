@@ -1,0 +1,77 @@
+When training a neural network, one of the techniques
+to speed up your training is if you
+normalize your inputs. Let's see what that means. Let's see the training sets
+with two input features. The input features x
+are two-dimensional and here's a scatter plot
+of your training set. Normalizing your inputs
+corresponds to two steps, the first is to subtract out
+or to zero out the mean, so your sets mu equals 1 over m, sum over I of x_i. This is a vector and then x gets set as x minus mu for
+every training example. This means that you just move the training set until
+it has zero mean. Then the second step is to
+normalize the variances. Notice here that
+the feature x_1 has a much larger variance
+than the feature x_2 here. What we do is set
+sigma equals 1 over m sum of x_i star, star 2. I guess this is
+element-y squaring. Now sigma squared is a vector with the variances of
+each of the features. Notice we've already
+subtracted out the mean, so x_i squared, element-y
+square is just the variances. You take each example and
+divide it by this vector sigma. In some pictures, you end
+up with this where now the variance of x_1 and
+x_2 are both equal to one. One tip. If you use this to
+scale your training data, then use the same mu and sigma to normalize
+your test set. In particular, you don't want to normalize the training set
+and a test set differently. Whatever this value is and
+whatever this value is, use them in these two formulas so that you scale
+your test set in exactly the same way rather
+than estimating mu and sigma squared separately on your training set and test set, because you want your data both training and test
+examples to go through the same transformation
+defined by the same Mu and Sigma squared calculated on your
+training data. Why do we do this? Why do we want to normalize
+the input features? Recall that the cost function is defined as written
+on the top right. It turns out that if you use
+unnormalized input features, it's more likely that your cost function
+will look like this, like a very squished out bar, very elongated cost function where the minimum you're trying to find is
+maybe over there. But if your features are
+on very different scales, say the feature x_1 ranges from 1-1,000 and the feature
+x_2 ranges from 0-1, then it turns out that the ratio or the
+range of values for the parameters w_1 and w_2 will end up taking on
+very different values. Maybe these axes
+should be w_1 and w_2, but the intuition
+of plot w and b, cost function can be very
+elongated bow like that. If you plot the contours
+of this function, you can have a very elongated
+function like that. Whereas if you
+normalize the features, then your cost function will on average look
+more symmetric. If you are running
+gradient descent on a cost function like
+the one on the left, then you might
+have to use a very small learning rate
+because if you're here, the gradient decent might need a lot of steps to
+oscillate back and forth before it finally finds
+its way to the minimum. Whereas if you have more
+spherical contours, then wherever you start, gradient descent can pretty much go straight to the minimum. You can take much larger steps where gradient descent need, rather than needing to oscillate around like
+the picture on the left. Of course, in practice, w is a high dimensional vector. Trying to plot
+this in 2D doesn't convey all the
+intuitions correctly. But the rough intuition
+that you cost function will be in a more round and easier to optimize when you're features are on similar scales. Not from 1-1000, 0-1, but mostly from minus 1-1 or about similar
+variance as each other. That just makes
+your cost function j easier and faster to optimize. In practice, if one feature, say x_1 ranges from 0-1 and
+x_2 ranges from minus 1-1, and x_3 ranges from 1-2, these are fairly similar ranges, so this will work just fine, is when they are on dramatically
+different ranges like ones from 1-1000 and
+another from 0-1. That really hurts your
+optimization algorithm. That by just setting all
+of them to zero mean and say variance one like
+we did on the last slide, that just guarantees that
+all your features are in a similar scale and will usually help you learning
+algorithm run faster. If your input features came
+from very different scales, maybe some features
+are from 0-1, sum from 1-1000, then it's important to normalize
+your features. If your features came
+in on similar scales, then this step is less
+important although performing this type of normalization pretty much never does any harm. Often you'll do it anyway, if I'm not sure whether
+or not it will help with speeding up training
+for your algorithm. That's it for normalizing
+your input features. Next, let's keep
+talking about ways to speed up the training
+of your neural network.

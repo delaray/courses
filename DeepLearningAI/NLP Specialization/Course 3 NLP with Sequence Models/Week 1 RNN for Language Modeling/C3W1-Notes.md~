@@ -1,0 +1,132 @@
+# 1. Introduction to Neural Networks and TensorFlow
+
+## Video: Course 3 Introduction (3 min)
+
+- Deep Neural Nets for Sentiment analysais
+- RNN & LSTM for text generation
+
+## Video: Lesson Introduction (44 sec)
+  
+## Reading: Lesson Introduction Clarification (10 min)
+
+## Video: Neural Networks for Sentiment Analysis (3 min)
+  
+  
+## Reading: Neural Networks for Sentiment Analysis (7 min)
+
+## Video: Dense Layers and ReLU (2 min)
+  
+- Compute Z the pre-acvtivation value
+- Compute g using an activation function (ReLU or other)
+
+## Reading: Dense Layers and ReLU (5 min)
+
+- See screenshot 
+
+## Video: Embedding and Mean Layers (3 min)
+
+- Maps integer rep. of a word vand maps it to a vector
+- The vectors are trainable
+- Learn a matrix of dim: Vocab x Vector size
+- Mean Layer computes average of the words 
+  - Returns a single vector the size of the embedding
+  
+  
+## Reading: Embedding and Mean Layers (3 min)
+
+## Lab: Introduction to TensorFlow (30 min)
+
+- Various tf functions
+- tf.data
+
+# 2. N-grams vs. Sequence Models
+## Video: Lesson Introduction (49 sec)
+  
+  
+## Video: Traditional Language models (3 min)
+
+- N-Grams aare computationall expensive
+- Need large N-Grams to capture depedndencies far away
+
+- Recurrent Neural Networks (RNN)
+- Gated Recurrent Units (GRU)
+  
+  
+## Reading: Traditional Language models (5 min)
+
+- N-Grams computationally inefficient
+
+## Video: Recurrent Neural Networks (4 min)
+
+- RNN: Can capture more dependencies between words
+- RNN: Look at every previous word by prpagating information
+  
+  
+## Reading: Recurrent Neural Networks (4 min)
+
+-- See Screenshot
+
+## Video: Applications of RNNs (3 min)
+
+- Types of architectures based on input/oupt types
+
+- One to one (no need RNN)
+
+- One to many (can use RNN)
+
+- Many bo one (can use an RNN)
+
+  
+## Reading: Application of RNNs (3 min)
+
+Application of RNNs
+
+RNNs could be used in a variety of tasks ranging from machine translation to caption generation. There are many ways to implement an RNN model:
+
+- One to One: given some scores of a championship, you can predict the winner. 
+- One to Many: given an image, you can predict what the caption is going to be.
+- Many to One: given a tweet, you can predict the sentiment of that tweet. 
+- Many to Many: given an english sentence, you can translate it to its German equivalent.
+
+In the next video, you will see the math in simple RNNs. 
+
+
+## Video: Math in Simple RNNs (3 min)
+  
+  
+## Reading: Math in Simple RNNs (6 min)
+
+Lab: Hidden State Activation
+. Duration: 20 minutes20 min
+
+## Video: Cost Function for RNNs (2 min)
+  
+  
+## Reading: Cost Function for RNNs (5 min)
+
+## Video: Implementation Note (1 min)
+  
+  
+## Reading: Implementation Note (3 min)
+
+## Video: Gated Recurrent Units (4 min)
+  
+  
+## Reading: Gated Recurrent Units (7 min)
+
+Lab: Vanilla RNNs, GRUs and the scan function
+. Duration: 20 minutes20 min
+
+## Video: Deep and Bi-directional RNNs (4 min)
+  
+  
+## Reading: Deep and Bi-directional RNNs (10 min)
+
+## Reading: Calculating Perplexity (10 min)
+
+Lab: Calculating Perplexity
+. Duration: 20 minutes20 min
+
+## Video: Week Conclusion (57 sec)
+  
+  

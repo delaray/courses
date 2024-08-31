@@ -1,0 +1,65 @@
+# Week 1: Collecting, Labeling and Validating Data
+
+## Learning Objectives
+- Describe the differences between ML modeling and a production ML system
+- Identify responsible data collection for building a fair production ML system
+- Discuss data and concept change and how to address it by annotating new training data with direct labeling and/or human labeling
+- Address training data issues by generating dataset statistics and creating, comparing and updating data schemas
+
+
+----
+
+
+### Specialization overview (6 min)
+
+
+### Course Overview (2 min)
+
+
+----
+
+
+### Overview (11 min)
+
+
+### ML Pipelines (6 min)
+
+
+### Intro to MLEP Practice Quiz•10 questions
+
+
+Ungraded App Item•. Duration: 1 hour1h
+
+----
+
+### Importance of Data (8 min)
+
+
+### Example Application: Suggesting Runs (8 min)
+
+
+### Responsible Data: Security, Privacy & Fairness (11 min)
+
+
+Data Collection Practice Quiz•7 questions
+
+----
+
+
+### Case Study: Degraded Model Performance (9 min)
+
+
+### Data and Concept Change in Production ML (5 min)
+
+
+### Process Feedback and Human Labeling (11 min)
+
+
+Data Labeling Practice Quiz•3 questions
+
+----
+
+### Detecting Data Issues (7 min)
+
+### TensorFlow Data Validation (6 min)
+
