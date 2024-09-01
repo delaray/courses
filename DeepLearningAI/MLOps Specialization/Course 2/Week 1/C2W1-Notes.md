@@ -67,10 +67,52 @@
   - Priorities are different
   - Objectives are different
 
+- Modern software bdevelopment
+  - Scalability
+  - Extensibility
+  - Configuration
+  - Consistency & reproducibility
+  - Safety & Security
+  - Modularity
+  - Testability
+  - Monitoring
+  - Best practices
+  
+- Production ML System
+  - Scoping
+  - Data
+  - Modeling
+  - Deployment
+  
+- Iterative process
+
+- Challenges in production grade ML systems
 
 ### ML Pipelines (6 min)
 
+- ML Pipelines
+- DAG
+- Tensor Flow Extended (TFX)
 
+- Almost always DAGs
+
+- Pipeline Orchestration Frameworks
+  - Responsible for scheduling various ML Pipeline components
+  - Help with Pipeline automation
+  - Example include: Airflow, Argo, Celery, Luigio, Kubeflow
+
+- TensorFlow Extende3d (TFX)
+  - End-to-end platform for deployingh ML Pipelines
+  - TFX production components
+  - TFX has libraries and components which leverage the former
+  - Components represent the nodes in the DAG
+  
+- Key Points
+  - Production ML Pipelines: Automating, monitoring & maintaining end-to-end processes
+  - Production ML is more than justy ML Code
+    - ML Dev + Software Dev
+  - TFX is an open-source end-to-end ML platform
+  
 Intro to MLEP Practice Quiz (10 questions)
 Ungraded App Item (1 hour)
 
