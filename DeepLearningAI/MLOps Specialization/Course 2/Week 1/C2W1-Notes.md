@@ -14,7 +14,7 @@
 
 ### Specialization overview (6 min)
 
-- The world Change
+- The world changes
 - Need expertise in ML & Software Engineering
 - Gathering, Cleaning, Preprocessing
 
@@ -122,12 +122,86 @@ Ungraded App Item (1 hour)
 
 ### Importance of Data (8 min)
 
+- Think about how to collect real-world data  
+
+- Importance of Data Quality  
+- Data Pipeline: collection, ingestion, & preparation  
+  - Sequenced automated tasks  
+- Data Collection and monitoring  
+
+- In ML, DATA is a first class citizen  
+  - Software 1.0  
+    - Explicit instructions to the computer  
+  - Software 2.0  
+    - Specify some goal on behavior  
+	- Find solutions using optimization techniques  
+	  - optimize for performance, maintainaboility & scalability  
+	- Good data is key for success  
+	- Code in Software = Data in ML  
 
 ### Example Application: Suggesting Runs (8 min)
 
+- Recommend runs based on user patterns  
+
+- Key considerations  
+  - Data availability & collection  
+  - Translate user needs into data needs  
+  
+- Know your Data  
+  - Data sources  
+  - check refreshed  
+  - Consistency  
+  - Monitor Outliers & errors  
+  
+- Dataset Issues  
+  - Inconsistent formatting  
+    e.g "0" vs. "0.0"  
+  - Compounding errors from other models  
+  - Monitor data sources  
+  
+- Measure data effectiveness  
+  - Intuition can be misleading  
+  - Which features have predictive value  
+  - Feature engineering helps maximize predictive signals  
+  - Feature sedlection helps measure signals  
+  
+- Translate user needs into data needs  
+  - Data needed  
+  - Features needed  
+  - Labels needed  
+  
 
 ### Responsible Data: Security, Privacy & Fairness (11 min)
 
+- Responsibly sourced data  
+  - Respect user privacy  
+  - Avoiding biases (e.g. African wedding)  
+  
+- Data security and privacy  
+  - Let user control what data is collected  
+  - Mitigate the risk of revealing user data  
+  - Compliance with regulations, e.g. GDPR  
+  
+- Users privacy  
+  - Personally identifiable info  
+    - Aggregation  
+	- Redaction  
+	
+- How  ML systems can Fail  
+  - Representaitonal harm  
+  - Opportunity denial  
+  = disproprotionate prediction failre  
+  - Harm by diasadvantage  
+  
+- Commit to fairness  
+  - Group fairness  
+  - Bias in Human collected data  
+  - Models can amplify biases  
+  
+- Types of human raters  
+  - Generalists  
+  - Domain experts  
+  - Users  
 
 Data Collection Practice Quiz (7 questions)
 
