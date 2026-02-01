@@ -1,0 +1,101 @@
+# RAG Module 5: RAG Systems in Production
+
+## Introduction
+
+- Evaluation and Logging
+- System O)ptimization
+- Multi-modal RAG
+
+
+## What Makes Production Challenging
+
+- Scaling Performanve
+  - More Traffic
+  - More requests
+  - Scaling
+  
+- Messy Real World Data
+  - Data can be fragmented, messy or misdsing metadata
+  - Much of it isn't text: Images, PDFs or slide decks
+  - Accessing data requires extraction t6oolsd
+  
+- Secuirity and Privacy
+
+- Mistakes in Production can be costly
+
+
+## Implementing RAG Evaluation Stategies
+
+- Build a robust observability platform
+- Key Metrics
+  - Software PerformaNCE Metrics
+    - Latency, throughput, memory & compute usage
+  - Quality Metrics
+    - User satisfaction
+	- System Output Quality
+	
+- How to Track
+  - Collect agggregate statistics
+    - Track trends
+	- Identify regressions
+  - Detailed logs
+    - Trace individual prompts through system
+  - Experimentation
+    - A/B test changes and run secure experiments
+	
+
+- Scope & Evaluator-Type
+
+  - Scopes: System level or component-level
+  - Evaluators: Code-based, Human Eval, LLM-as-a-Judge
+  
+  - Systewm Scope
+    - Overall eval, indicaters **what** is wrong
+	  - Code-based evaluators
+	    - Cheapest & simplest
+		- Recordiong prompts per second
+		- Unit tests for valid JSON output
+		- Can run automatically
+	  -Human Feedback
+	    - Most costly but captures what code misses
+		  - Thumbs up/down
+		  - Detailed tyext feedback
+		  - Pre-compiled test datasets
+		  - Manual quality assessment
+	  - LLM-as-a-Judge
+	    - Splits the difference between 
+		  - code-based (less flexible)
+		  - human feedback (more costly)
+		- Can determine if retrieved docs are relevant
+		- Works best with distinct labels rather than numeric scale
+		
+  - Coomponernt Scope
+  
+  
+## Logging, Monitoring and Observability
+
+- Many LLM Observability Platforms  
+  - Capture system-wide and component-level metrics  
+  - Help log system traffic  
+  - Enable experimentation  
+  - Example: Phoenix by Arize  
+
+Phoienix Tools
+- Traces
+  - F0llow a prompt through RAG pipeline
+  - Common tool
+- Eval Integration
+  - Integrates with Ragas
+  - Interact6ively test your own prompts
+  - A/B Test Changes
+  - Generate regular reports of key syatem metrics
+  
+Other Monitoring Tools
+ - Systems like Phoenix don't satisty all monitoring needs
+ - Can use other claSSIC MONITORING TOOLS
+   - Datadog
+   - Grafana
+   - Loop
+     - Experiment with changes
+	 - Observe traffic
+	 - Evaluate performance

@@ -1,0 +1,41 @@
+# Agentic AI: Module 1
+
+# Introduction to Agentic Workflows
+
+## What is Agentic AI
+
+- Agentic AI
+  - Non-Agentic workflow (zero-shot LLM)
+    - Straight shot to response
+  - Agentic Workflow
+    - Iterative
+	- drafts
+	- Revisions
+	
+- Autonomy
+
+
+## Degrees of Autonomy
+
+- Use adjective term "agentic" rather than noun "agent"
+- Allows us to talk about degrees of autonomy
+
+- Less autonomous
+  - All sfteps predetermined
+  - All tool us hard coded
+  - Autononmy is in text generation
+  
+- Semi-autonomous Agents
+  - Agent can make some decisions. choose tools
+  - All tools predefined
+  
+- Highly autonomous
+  - Agent makes many decisions autonomously
+  - Can create new tools on the fly
+
+
+## Benefits of Agentic AI
+
+
+## Agentic AI Applications
+

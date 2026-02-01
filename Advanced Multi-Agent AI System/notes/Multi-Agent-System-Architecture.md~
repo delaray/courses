@@ -1,0 +1,46 @@
+# Multi-Agent System Design Document
+
+## 1: System Architecture
+
+## 2: Agent Roles and Specializations
+
+## 3: Communication Flows
+
+## Memory and Context Management
+
+We will use aa shared memory strategy wityh a centralized context store that will contain the Conversation state, the Customer profile, the order history and partial agent outputs.
+
+The orchestreator will have read & write access to the shgared memory, while the specialist agents will have read only access.
+
+Context will be presered by including a conversation summmary  and relevant entities only that enables a structured minimal context to avoid raw transcript flooding.
+
+Partial solutions will be provided by speecialisat agents and propagated by the orchestrator that will use the partial solution to trigger other specialist agents. For example if the technical agent determines the customer is eligible for a refung, the orchestror will use to trigger the billing agent and explain resolution to customer.
+
+Finally safeguards will be put in place to protect against information loss. These may include immutable conversation IDs and the Orchestrator as single source of truth.
+
+
+
+## Improvements
+
+The customer experience improvements are aS follows
+
+- One continuous conversation instead of multiple transfers
+- Invisible expert collaboration instea of repeated explanations
+- Faster, clearer resolutions instead of long resolution times
+- Higher trust and satisfaction instead of inconsistent answers
+
+## Conclusion
+
+This hierarchical multi-agent design turns internal complexity into external simplicity, by providing a customers experience that involves one assistant, one and conversation and one resolution while the system benefits from deep specialization, strong governance and a scalable architecture.
+
+
+
+
+
+
+
+
+
+
+
+

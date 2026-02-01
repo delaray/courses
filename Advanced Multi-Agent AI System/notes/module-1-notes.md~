@@ -1,0 +1,74 @@
+# Advanced Multi-Agent AI System
+
+## Module 1: Multi-Agent System Architecture and Design Priciples 
+
+
+### Introduction
+
+- Explore architectural patterns for effective agent collaboration
+- Design governance frameworks to ensure safety and alignment
+- Build adaptable multi-agent prototypes for real applications
+
+
+### Understanding Multi-Agent System Fundamentals
+
+- Difference between parallel & collaboarative agents
+- Analyze how specialization & coordination drive MA Coordination
+- Evaluate real-world applications of multi-agent systems
+
+- Agentic AI Market growth
+  - 56.1% CAGR
+  - $10.4B by 2025
+
+- Multi-Agent System
+  - Specializaed agents instead of one generalist
+  
+- Three Core Capabilities
+  - Coordination
+  - Specialization
+  - Communication
+  
+- Anthropic Multi-Agent Research System
+  - Specialized agents work in parallel
+  - Share findings via structured communication
+  - Produce coherent research outputs
+  
+### Multi-Agent System Architectures and Topologies
+
+- How should agents coordinate and communicate
+
+- Objectives
+  - Differentiate between centralized, decentralize and hierarchicalk architectures
+  - Analyse how architectural choices affedct coordination, scalability & governance
+  - Evalaluate which architectural pattern best fits requirements  
+  - No one-size fits all
+  
+- Centralized System 
+  - Single supervisor
+  - Tight coordination and centralkized cointrol
+  - Financial Industry
+
+- Decentralized System 
+  - Agents communicate peer-to-peer
+  - Open ended environments
+  - Rese
+
+- Hierarchical System 
+  - Enterprise systems
+  - Balance autonomy with centralized system
+  - 
+
+- Summary
+  - Centralized: Tight control via supervision
+  - Decentralized Flexiblee peer-to-peer collaboaration
+  - Hierarchical: Structure and scalable design 
+  - Architecture: Shapes behaviuor, performance & governance
+  
+### Agent Role Definition and Specialization Strategies
+
+Netflix & Spotify have built MA recommentation systemms
+- Clear agent roles defined
+- Enabling these specialized agents to work together effectively
+- Requires designing communication protocols that balance structure with flexibility
+- Share critical information and maintain autonomous decision-making capabilities
+

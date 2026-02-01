@@ -1,0 +1,17 @@
+# GCP Core Services Module 2: Identity and Access Manegement (IAM)
+
+## Intro
+
+Who: Person, group or application
+Can do what: Specific priviledges or actions
+On which resource: Any GCP service
+
+## IAM 
+
+IAM Objects
+- Organization
+- Foders
+- Projects
+- Resources
+- Roles
+- Members
