@@ -260,3 +260,67 @@ Commands only affect containers in compose file.
 ### Dockerizing Notebooks Backend
 
 ### Configuring Docker Compose for Notebook Services
+
+### Setting Up Docker Compose for Notes Services
+
+### Using Multistage Builds for Our Images
+
+	FROM node:22-alpine AS development
+	...
+	FROM node:22-alpine AS prod-dependencies
+	...
+	FROM node:22-alpine AS production
+
+### Merging Multiple Projects in Docker Compose
+
+In a toplevel *compose.yaml*
+
+	include:
+	- notebooks-backend/compose.yaml
+	- notes-backend/compose.yaml
+
+
+### Implementing the NGINX Reverse Proxy
+
+Need to create and define:
+
+	nginx.conf
+
+### Establishing Connections Between Services
+
+Can override services or enhance compose project merge
+Can connect included projects to newly defined network
+
+	compose.override.yaml
+	
+### Setting Up Models and Routes for Notebooks Service
+
+### Refactoring the Code
+
+Express middleware can be used to chain functions dsuring requests
+
+	const A = (req, res, next) => {
+		Some validation...
+		
+		next(err)
+
+	const B = (req, res, next) => {
+		Some business logic...
+	
+		next(err)
+
+	const C = (req, res, next) => {
+		Some error processing...
+		
+		next(err);
+	
+	notebookRouter.post('/', A, B, C)'
+
+Validators for example can be inserted before the request logic processing code using the example above.
+
+The chaining relies on the *next* function being invoked in each middleware layer.
+
+### Implementing Routes and Business Logic in the notes backend.
+
+
+	
